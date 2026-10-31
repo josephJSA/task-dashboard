@@ -26,6 +26,44 @@
       ]
     }
   ],
+  "agentProjects": [
+    {
+      "id": "repo-rocket",
+      "name": "Repo Rocket",
+      "repository": "josephJSA/repo-rocket",
+      "branch": "feature/launch-automation",
+      "status": "Running",
+      "health": "Healthy",
+      "progress": 82,
+      "lastUpdated": "2 minutes ago",
+      "summary": "Checking CI, merging fixes, and verifying deployment",
+      "mode": "Autopilot"
+    },
+    {
+      "id": "task-dashboard",
+      "name": "Task Dashboard",
+      "repository": "josephJSA/task-dashboard",
+      "branch": "feature/dashboard-sweep",
+      "status": "Review",
+      "health": "Stable",
+      "progress": 61,
+      "lastUpdated": "9 minutes ago",
+      "summary": "Reviewing backlog items and polishing the active dashboard",
+      "mode": "Plan"
+    },
+    {
+      "id": "deploy-watch",
+      "name": "Deploy Watch",
+      "repository": "josephJSA/deploy-watch",
+      "branch": "main",
+      "status": "Needs attention",
+      "health": "Warning",
+      "progress": 46,
+      "lastUpdated": "1 hour ago",
+      "summary": "Waiting on a stalled deployment check and failed notification",
+      "mode": "Monitor"
+    }
+  ],
   "tags": [
     "GitHub",
     "Microsoft",
