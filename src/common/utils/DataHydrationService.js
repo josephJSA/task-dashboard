@@ -29,6 +29,14 @@ export const DataHydrationService = {
   },
 
   /**
+   * Load sample agent project data into the application
+   * @returns {Array} Array of sample agent projects
+   */
+  getInitialAgentProjects: () => {
+    return initialData.agentProjects || [];
+  },
+
+  /**
    * Check if the application should be hydrated with sample data
    * This can be expanded to check localStorage or other conditions
    * @returns {boolean}

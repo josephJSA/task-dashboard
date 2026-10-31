@@ -7,6 +7,7 @@ import { TagProvider } from './context/TagContext';
 import { ListProvider } from './context/ListContext';
 
 import GlobalTaskForm from './features/tasks/components/GlobalTaskForm';
+import AgentDashboard from './features/agents/components/AgentDashboard';
 import TaskBoard from './features/lists/components/TaskBoard';
 
 function App() {
@@ -56,7 +57,9 @@ function App() {
                   )}
                 </AnimatePresence>
               </motion.div>
-              
+
+              <AgentDashboard />
+               
               {/* The TaskBoard component now manages all task lists */}
               <TaskBoard />
             </div>
